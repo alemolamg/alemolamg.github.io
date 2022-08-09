@@ -1,6 +1,81 @@
-:root{
-    --rojo: #e50914;
-    --gris: grey ;
-    --letra-principal:'Inter', sans-serif;
+:root {
+  --rojo: #e50914;
+  --gris: rgb(195, 193, 193);
+  --letra-principal: "Inter", sans-serif;
+  --color-fondo: white;
+}
 
+.body {
+  font-family: var(--letra-principal);
+  font-size: 100%;
+  min-height: 100vh;
+  background-color: var(--color-fondo);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+}
+
+.header {
+  width: auto;
+  min-width: 5rem;
+  background: lightblue;
+
+  padding: 1rem 2rem;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .h1 {
+}
+.header .nav {
+}
+.header .ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .li {
+  margin: 0 1em;
+}
+.header .a {
+}
+
+.main {
+}
+
+.seccion {
+}
+.seccion .circulos {
+}
+.seccion .circulo {
+}
+.seccion .h2 {
+}
+.seccion .h3 {
+}
+
+.seccion .p {
+}
+.seccion .grid {
+}
+.seccion .article {
+}
+.seccion .a {
+}
+
+.about {
+}
+.about .h2 {
+}
+.about .p {
+}
+.about .rrss {
+}
+.about .li {
+}
+.about .a {
+}
+.about .svg {
 }
