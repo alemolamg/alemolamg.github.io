@@ -43,9 +43,21 @@
 }
 
 .main {
+  background: lightgrey;
+  margin: 1em 0;
+  text-align: center;
 }
 
 .seccion {
+  width: auto;
+  min-height: 40vh;
+  background: darkolivegreen;
+  margin: 1em 0;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
 .seccion .circulos {
 }
@@ -59,8 +71,14 @@
 .seccion .p {
 }
 .seccion .grid {
+  width: 90%;
+  background: lightcoral;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1fr, 10rem));
 }
 .seccion .article {
+  width: 100%;
+  background: lightgoldenrodyellow;
 }
 .seccion .a {
 }
@@ -78,4 +96,9 @@
 .about .a {
 }
 .about .svg {
+}
+
+.footer {
+  background: lightskyblue;
+  padding: 3em 1em;
 }
